@@ -1,0 +1,18 @@
+.profile__edit-button {
+    background: transparent url("../../../images/vector.svg") no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    align-self: flex-end;
+    margin: 7px;
+    border: none;
+}
+
+@media screen and (max-width: 500px) {
+    .profile__edit-button {
+        margin: 5.25px;
+        width: 7.5px;
+        height: 7.5px;
+    }
+}
