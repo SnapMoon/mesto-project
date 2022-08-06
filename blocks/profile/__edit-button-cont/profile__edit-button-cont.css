@@ -1,13 +1,14 @@
-.profile__edit-button_cont {
+.profile__edit-button-cont {
     border: 1px solid #fff;
     width: 24px;
     height: 24px;
     cursor: pointer;
+    align-self: end;
     transition: opacity .3s linear;
 }
 
 @media screen and (max-width: 500px) {
-    .profile__edit-button_cont {
+    .profile__edit-button-cont {
         width: 18px;
         height: 18px;
         padding: 0;
@@ -15,6 +16,6 @@
     }
 }
 
-.profile__edit-button_cont:hover {
+.profile__edit-button-cont:hover {
     opacity: .6;
 }
