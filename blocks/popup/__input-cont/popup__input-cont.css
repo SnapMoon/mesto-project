@@ -3,7 +3,7 @@
     margin: 54px auto 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .popup__input-cont {
         max-width: 238px;
         margin-top: 75px;

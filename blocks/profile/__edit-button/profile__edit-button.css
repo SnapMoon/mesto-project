@@ -3,21 +3,29 @@
     height: 24px;
     align-self: flex-end;
     border: 1px solid #fff;
-    background: none;
+    background-image: url("/images/Vector.svg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
     box-sizing: border-box;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
+    transition: opacity .3s linear;
+    cursor: pointer;
+}
+
+.profile__edit-button:hover {
+    opacity: 0.6;
 }
 
 
 @media screen and (max-width: 500px) {
     .profile__edit-button {
-        margin: 5.25px;
-        width: 7.5px;
-        height: 7.5px;
+        width: 18px;
+        height: 18px;
     }
 }
 
