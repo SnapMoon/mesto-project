@@ -1,8 +1,7 @@
 .element__like {
     border: none;
-    margin-right: 20px;
-    margin-top: 31px;
-    margin-bottom: 30px;
+    display: block;
+    align-self: center;
     width: 22px;
     height: 19px;
     cursor: pointer;
