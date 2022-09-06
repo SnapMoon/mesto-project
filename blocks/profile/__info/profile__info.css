@@ -13,8 +13,3 @@
 }
 
 
-.profile__author {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-}
