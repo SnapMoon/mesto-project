@@ -22,16 +22,11 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .profile__edit-button {
         width: 18px;
         height: 18px;
+        background-image: url("../../../images/Vector-m.svg");
     }
 }
 
-
-.profile__edit-button-icon {
-    fill: currentColor;
-    width: 10px;
-    height: 10px;
-}

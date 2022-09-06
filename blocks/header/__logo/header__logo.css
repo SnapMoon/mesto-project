@@ -5,10 +5,10 @@
     display: block;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .header__logo {
         margin-left: 27px;
-        width: 103.74px;
+        width: 103.73px;
         height: 24.4px;
     }
 }

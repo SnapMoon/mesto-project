@@ -4,9 +4,8 @@
     gap: 7px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .profile__info {
-        row-gap: 10px;
         column-gap: 14px;
         margin-top: 26px;
     }

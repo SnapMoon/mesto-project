@@ -24,16 +24,11 @@
         opacity: 0.6;
     }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .profile__add-button {
         width: 282px;
         height: 50px;
-        margin-top: 36px;
+        margin-top: 33px;
+        background-image: url("../../../images/addbutton-m.svg");
     }
 }
-    .profile__add-button-icon {
-        width: 22px;
-        height: 22px;
-        color: #fff;
-        fill: currentColor;
-    }

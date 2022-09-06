@@ -3,3 +3,10 @@
     align-items: center;
     gap: 18px;
 }
+
+@media screen and (max-width: 768px) {
+    .profile__author{
+        margin-left: 27px;
+        gap: 7px;
+}
+}
